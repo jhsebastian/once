@@ -2,9 +2,9 @@ body{
     background-color:white;
 }
 
-@font-face{
+@font-face{ 
     font-family:'mifuente';
-    src: url(../fuentes/CloisterBlack.ttf);
+    src: url(fuentes/CloisterBlack.ttf);
 }
 
 li {
@@ -16,14 +16,18 @@ a:visited{ color:rgb(0, 0, 0);
     text-decoration-line: none;
 }
 
-a:hover{ 
+a:hover { 
     font-weight:bold;
+    color: rgb(126, 126, 126);
 }
 
-a { text-decoration: none; }
+a { 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
 #tittle{
-    font-family:'mifuente';
+   font-family:'mifuente';
    font-size: 90pt;
    margin-right: 20%;
    margin-left: 5%;
@@ -113,7 +117,7 @@ text{
         float: right;
         width: 48%;
         height: 50%;
-    background-image: url(../img/imagen1.jpeg);
+    background-image: url(img/imagen1.jpeg);
     background-size: inherit;
         background-position: center;
         background-size: 100%;
@@ -189,7 +193,7 @@ text{
                 float: right;
                 width: 30%;
                 height: 35%;
-                background-image: url(../img/imagen2.jpeg);
+                background-image: url(img/imagen2.jpeg);
                 background-position: initial;
                 background-position: center;
                 background-size: 100%;
@@ -202,7 +206,7 @@ text{
                 float: left;
                 width: 30%;
                 height: 35%;
-                background-image: url(../img/imagen3.jpeg);
+                background-image: url(img/imagen3.jpeg);
             background-size: inherit;
                 background-position: center;
                 background-size: 100%;
@@ -214,7 +218,7 @@ text{
                 float: right;
                 width: 30%;
                 height: 35%;
-                background-image: url(../img/imagen4.jpeg);
+                background-image: url(img/imagen4.jpeg);
             background-size: inherit;
                 background-position: center;
                 background-size: 100%;
@@ -227,7 +231,7 @@ text{
                 float: left;
                 width: 30%;
                 height: 35%;
-                background-image: url(../img/imagen5.jpeg);
+                background-image: url(img/imagen5.jpeg);
             background-size: inherit;
                 background-position: center;
                 background-size: 100%;
@@ -281,7 +285,7 @@ text{
         float: right;
         width: 38%;
         height: 85%;
-    background-image: url(../img/imagen6.jpeg);
+    background-image: url(img/imagen6.jpeg);
     background-size: inherit;
         background-position: center;
         background-size: 100%;
