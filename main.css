@@ -7,15 +7,17 @@ body{
     src: url(../fuentes/CloisterBlack.ttf);
 }
 
-li{ display: inline-block;
+li {
+  display: inline-block;
   align-items: baseline;
 }
 
 a:visited{ color:rgb(0, 0, 0);
-           text-decoration-line: none;
+    text-decoration-line: none;
 }
 
-a:hover{ font-weight:bold;
+a:hover{ 
+    font-weight:bold;
 }
 
 a { text-decoration: none; }
