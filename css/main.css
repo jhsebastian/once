@@ -1,0 +1,289 @@
+body{
+    background-color:white;
+}
+
+@font-face{
+    font-family:'mifuente';
+    src: url(../fuentes/CloisterBlack.ttf);
+}
+
+li{ display: inline-block;
+  align-items: baseline;
+}
+
+a:visited{ color:rgb(0, 0, 0);
+           text-decoration-line: none;
+}
+
+a:hover{ font-weight:bold;
+}
+
+a { text-decoration: none; }
+
+#tittle{
+    font-family:'mifuente';
+   font-size: 90pt;
+   margin-right: 20%;
+   margin-left: 5%;
+   margin-top: 1%;
+}
+
+#people{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 2%;
+    letter-spacing: 5pt;
+}
+#places{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 2%;
+    letter-spacing: 5pt;
+}
+#art{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 2%;
+    letter-spacing: 5pt;
+}
+#food{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 2%;
+    letter-spacing: 5pt;
+}
+#animals{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 5%;
+    letter-spacing: 5pt;
+}
+text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 20%;
+    letter-spacing: 5pt;
+}
+
+#linea{
+    margin-top: 2%;
+}
+#frase1div{
+    width: 50%;
+    height: 50%;
+    background-color:rgb(255, 255, 255);
+    margin-bottom: 5%
+}
+
+#frase1{
+    text-transform: uppercase;
+    font-family:'raleway';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30pt;
+    text-align: center;
+    padding: 100px 10px 0px 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    letter-spacing: 5pt; }
+
+#autor1{
+    font-family: 'mifuente';
+    text-align: center;
+    font-size: 27pt;
+    padding: 0px 10px 5px 10px;}
+
+    #imagen1{
+        background-color: rgb(255, 255, 255);
+        float: right;
+        width: 48%;
+        height: 50%;
+    background-image: url(../img/imagen1.jpeg);
+    background-size: inherit;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 20pt;
+        margin-right: 2%;
+    }
+
+    #info{
+    width: 100%;
+	height: 60px;
+	background: white;
+	position: absolute;
+    bottom:auto;
+    }
+
+    #copyright {
+        font-family: 'raleway';
+        font-size: 10pt;
+        margin-right: 30%;
+    }
+
+    #instagram {
+        margin-right: 2%;
+        font-family: 'mifuente';
+        font-size: 20pt;
+        letter-spacing: 5pt;
+    }
+
+    #facebook{
+        margin-right: 2%;
+        font-family: 'mifuente';
+        font-size: 20pt;
+        letter-spacing: 5pt;
+    }
+
+    #twitter {
+        margin-right: 2%;
+        font-family: 'mifuente';
+        font-size: 20pt;
+        letter-spacing: 5pt;
+    }
+
+    #frase2div{
+        margin-top: 0%;
+        margin-left:5%;
+        width: 30%;
+        height: 1000px;
+        background-color:black;
+    }
+
+    #frase2{
+        text-transform: uppercase;
+        font-family:'raleway';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 30pt;
+        text-align: left;
+        padding: 300px 20px 0px 10px;
+        margin-left: 5%;
+        margin-right: 100%;
+        letter-spacing: 5pt;
+    position: absolute;
+    }
+
+    #autor2{
+            font-family: 'mifuente';
+            text-align: center;
+            font-size: 27pt;
+            padding: 900px 10px 5px 10px;}
+
+    #imagen2{
+                float: right;
+                width: 30%;
+                height: 35%;
+                background-image: url(../img/imagen2.jpeg);
+                background-position: initial;
+                background-position: center;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                margin-top: 2%;
+                margin-right: 2%;
+            }
+    
+    #imagen3{
+                float: left;
+                width: 30%;
+                height: 35%;
+                background-image: url(../img/imagen3.jpeg);
+            background-size: inherit;
+                background-position: center;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                margin-top: 2%;
+                margin-left: 37%;
+            }
+     #imagen4{
+                float: right;
+                width: 30%;
+                height: 35%;
+                background-image: url(../img/imagen4.jpeg);
+            background-size: inherit;
+                background-position: center;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                margin-top: 1%;
+                margin-right: 2%;
+            }
+    
+    #imagen5{
+                float: left;
+                width: 30%;
+                height: 35%;
+                background-image: url(../img/imagen5.jpeg);
+            background-size: inherit;
+                background-position: center;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                margin-top: 1%;
+                margin-left: 37%;
+    }
+
+   #parrafo1{
+    float: right;
+    width: 61%;
+    height: 35%;
+    margin-top: -30%;
+    margin-right: 2%;
+    position: inherit;
+    font-family: 'raleway';
+    font-size: 20pt;
+    font-weight: 200;
+    letter-spacing: 2pt;
+    text-align: justify;
+   }
+
+ #frase3div{
+    width: 60%;
+    height: 85%;
+    background-color:rgb(255, 255, 255);
+    margin-bottom: 5%
+}
+
+#frase3{
+    text-transform: uppercase;
+    font-family:'raleway';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30pt;
+    text-align: center;
+    padding: 100px 10px 0px 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+    letter-spacing: 5pt; }
+
+#autor3{
+    font-family: 'mifuente';
+    text-align: center;
+    font-size: 27pt;
+    padding: 0px 10px 5px 10px;}
+
+    #imagen6{
+        background-color: rgb(255, 255, 255);
+        float: right;
+        width: 38%;
+        height: 85%;
+    background-image: url(../img/imagen6.jpeg);
+    background-size: inherit;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 20pt;
+        margin-right: 2%;
+    }
