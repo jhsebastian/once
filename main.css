@@ -313,6 +313,7 @@ text{
     font-family: 'Questrial', sans-serif;
     letter-spacing: 1.5px;
     text-align: justify;
+    line-height: 25px;
 }
 .places-text1{
     width: 380px;
@@ -366,6 +367,7 @@ text{
     font-family: 'Questrial', sans-serif;
     font-style: oblique;
     font-weight: bold;
+    line-height: 50px;
 }
 
 .frase-food h4{
@@ -403,8 +405,32 @@ text{
     color: rgb(126, 126, 126);
     text-align: justify;
     font-family: 'Questrial', sans-serif;
+    line-height: 28px;
 }
 .food-imagen-larga {
     width: 1030px;
     padding: 20px 0 30px 120px;
+}
+
+.animals-images {
+    display: flex;
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.animals-images img{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+}
+.animals-parrafo {
+    padding-top: 30px;
+    width: 1060px;
+    padding-left: 110px;
+    text-align: justify;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+    line-height: 30px;
 }
