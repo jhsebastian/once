@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
 body{
     background-color:white;
 }
@@ -115,7 +117,7 @@ text{
     #imagen1{
         background-color: rgb(255, 255, 255);
         float: right;
-        width: 48%;
+        width: 600px;
         height: 50%;
     background-image: url(img/imagen1.jpeg);
     background-size: inherit;
@@ -123,7 +125,7 @@ text{
         background-size: 100%;
         background-repeat: no-repeat;
         margin-top: 20pt;
-        margin-right: 2%;
+        margin-right: 0;
     }
 
     #info{
@@ -152,6 +154,7 @@ text{
         font-family: 'mifuente';
         font-size: 20pt;
         letter-spacing: 5pt;
+        padding-left: 350px;
     }
 
     #twitter {
@@ -258,7 +261,7 @@ text{
     width: 60%;
     height: 85%;
     background-color:rgb(255, 255, 255);
-    margin-bottom: 5%
+    margin-bottom: 0;
 }
 
 #frase3{
@@ -293,3 +296,27 @@ text{
         margin-top: 20pt;
         margin-right: 2%;
     }
+
+.image3-places{
+    width: 1180px;
+    padding: 0 50px 0 60px;
+    height: 250px;
+}
+.places-text{
+    padding-top: 50px;
+    display: flex;
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+.places-text1{
+    width: 380px;
+    padding-left: 60px;
+}
+.places-text2{
+    width: 770px;
+    padding-left: 30px;
+
+}
