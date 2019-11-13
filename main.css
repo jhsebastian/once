@@ -14,19 +14,33 @@ li {
   align-items: baseline;
 }
 
-a:visited{ color:rgb(0, 0, 0);
+a:visited{ 
+    color:rgb(0, 0, 0);
     text-decoration-line: none;
+}
+
+#title {
+    border: none !important;
 }
 
 a:hover { 
     font-weight:bold;
     color: rgb(126, 126, 126);
+    
+
+}
+
+#people:hover, #places:hover, #food:hover, #animals:hover, #art :hover{
+    border: solid rgb(0, 0, 0) 2px;
+    padding: 2px;
 }
 
 a { 
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
+
 
 #tittle{
    font-family:'mifuente';
@@ -433,4 +447,60 @@ text{
     font-size: 20px;
     color: rgb(126, 126, 126);
     line-height: 30px;
+}
+
+
+
+.frase-people{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 600px;
+    margin-left: 120px;
+    font-family: 'Questrial', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.frase-people h4{
+    padding-top: 120px;
+    text-align: center;
+    font-style: normal;
+}
+
+.frase1-people {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 190px;
+}
+
+.container-people{
+    display: flex;
+    padding-top: 20px;
+}
+.people{
+    padding-left: 110px;
+
+}
+.people img {
+    width: 230px;
+    height: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.people p{
+    width: 490px;
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+    text-align: justify;
+    font-family: 'Questrial', sans-serif;
+    line-height: 25px;
+    padding-top: -20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.a{
+    padding-bottom: 5px;
 }
