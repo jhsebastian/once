@@ -32,7 +32,7 @@ a:hover {
 
 #people:hover, #places:hover, #food:hover, #animals:hover, #art :hover{
     border: solid rgb(0, 0, 0) 2px;
-    padding: 2px;
+    padding: 1px;
 }
 
 a { 
